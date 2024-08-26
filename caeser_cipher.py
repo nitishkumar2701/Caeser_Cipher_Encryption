@@ -11,7 +11,7 @@ def encrypt(text,shift):
             encodedList.append(alphabet_list[shift_index])
         else:
             encodedList.append(letter)
-    print("Encode message - " + ''.join(encodedList) + "\n")
+    print("Cipher message - " + ''.join(encodedList) + "\n")
 
 def decrypt(text,shift):
     for letter in text:
@@ -20,7 +20,7 @@ def decrypt(text,shift):
             decodedList.append(alphabet_list[shift_index])
         else:
             decodedList.append(letter) 
-    print("Decode message - " + ''.join(decodedList) + "\n")
+    print("Cipher  message - " + ''.join(decodedList) + "\n")
 
 while True:
     print("Caeser Cipher Encryption in Python")
